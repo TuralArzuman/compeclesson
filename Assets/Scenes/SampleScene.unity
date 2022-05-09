@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 1
-  _rotateSettings: {fileID: 0}
+  _rotateSettings: {fileID: 11400000, guid: e775c96d807294543a5e120c5a7358a3, type: 2}
 --- !u!65 &703191160
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76891a29c04f7d54fb1c9825fff359e6, type: 3}
-  m_Name: RotateSettings_Fast
+  m_Script: {fileID: 11500000, guid: cb78fc8ead5b0554d9a307a48aca14e8, type: 3}
+  m_Name: Control_Rigidbody
   m_EditorClassIdentifier: 
+  _jumpForce: {x: 0, y: 2, z: 0}
