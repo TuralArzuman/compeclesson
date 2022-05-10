@@ -322,6 +322,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6201352431009291416, guid: 99cdb24bd6450ff4ca0052f828e05116, type: 3}
   m_PrefabInstance: {fileID: 9206838491614266812}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1914877885 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9206838492542724301, guid: 99cdb24bd6450ff4ca0052f828e05116, type: 3}
+  m_PrefabInstance: {fileID: 9206838491614266812}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1914877886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914877885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e5d1617ce88d2b449deb7119fb5c659, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cameraSettings: {fileID: 11400000, guid: 2b02ab5151ca97848b0909392a33e296, type: 2}
+  _cameraTransform: {fileID: 963194228}
+  _targetTransform: {fileID: 1114502415}
 --- !u!1001 &9206838491614266812
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -329,22 +349,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2894568400390200456, guid: 99cdb24bd6450ff4ca0052f828e05116, type: 3}
-      propertyPath: _cameraSettings
-      value: 
-      objectReference: {fileID: 11400000, guid: 8d120c24620d4924c94bf8c296a7fe56, type: 2}
-    - target: {fileID: 2894568400390200456, guid: 99cdb24bd6450ff4ca0052f828e05116, type: 3}
-      propertyPath: _cameraTransform
-      value: 
-      objectReference: {fileID: 963194228}
-    - target: {fileID: 2894568400390200456, guid: 99cdb24bd6450ff4ca0052f828e05116, type: 3}
-      propertyPath: _targetTransform
-      value: 
-      objectReference: {fileID: 1114502415}
-    - target: {fileID: 6201352431009291416, guid: 99cdb24bd6450ff4ca0052f828e05116, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5.84
-      objectReference: {fileID: 0}
     - target: {fileID: 6537873294477828117, guid: 99cdb24bd6450ff4ca0052f828e05116, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -392,10 +396,6 @@ PrefabInstance:
     - target: {fileID: 7422038971466917650, guid: 99cdb24bd6450ff4ca0052f828e05116, type: 3}
       propertyPath: m_Name
       value: LocalPlayer
-      objectReference: {fileID: 0}
-    - target: {fileID: 9206838492542724296, guid: 99cdb24bd6450ff4ca0052f828e05116, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 7.27
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99cdb24bd6450ff4ca0052f828e05116, type: 3}
